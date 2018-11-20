@@ -1,0 +1,183 @@
+body {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.slideshow-container {
+	display: flex;
+	flex-basis: 100%;
+	background-image: url(img/umuzi3.png);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	border: 0px !important;
+}
+
+.container {
+	align-items: center;
+	flex-basis: 80% !important;
+	margin: auto;
+}
+
+.column1 {
+	flex: 1;
+}
+
+.column2 {
+	flex: 1;
+}
+
+h1 {
+	font-family: Theano Didot Regular;
+	font-size: 205pt;
+	letter-spacing: 10pt;
+	color: #fff;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+h3 {
+	font-family: Roboto;
+	font-size: 75pt;
+	letter-spacing: 7pt;
+	color: #cecece;
+	margin: -10px 0px 0px 0px;
+	padding: 0px 0px 150px 0px;
+}
+
+p {
+	color: #fff;
+	font-family: Theano Didot Regular;
+	font-size: 75pt !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	line-height: 122px;
+}
+
+button {
+	background-color: #fff;
+	text-transform: uppercase;
+	padding: 50px 70px !important;
+	font-family: Roboto;
+	font-weight: 600;
+	color: #000;
+	margin-top: 150px !important;
+	font-size: 20pt !important;
+	border: 0px !important;
+}
+
+@media screen and (max-width: 1440px) {
+	body {
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.slideshow-container {
+		display: flex;
+		flex-basis: 100%;
+		background-image: url(img/umuzi3.png);
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+		border: 0px !important;
+	}
+
+	.container {
+		align-items: center;
+		flex-basis: 80% !important;
+		margin: auto;
+	}
+
+	.column1 {
+		flex: 1;
+	}
+
+	.column2 {
+		flex: 1;
+	}
+
+	h1 {
+		font-family: Theano Didot Regular;
+		font-size: 45pt !important;
+		letter-spacing: 1pt !important;
+		color: #fff;
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+
+	h3 {
+		font-family: "Qaskin Black Personal Use Regular", Roboto;
+		font-size: 14pt !important;
+		letter-spacing: 7pt;
+		color: #cecece;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 20px 0px;
+
+	}
+
+	p {
+		color: #fff;
+		font-family: Theano Didot Regular;
+		font-size: 15pt !important;
+		margin: 0px !important;
+		padding: 0px !important;
+		line-height: 30px;
+	}
+
+	button {
+		background-color: #fff;
+		text-transform: uppercase;
+		padding: 15px 20px !important;
+		font-family: Roboto;
+		font-weight: 600;
+		color: #000;
+		margin-top: 30px !important;
+		font-size: 14pt !important;
+		border: 0px !important;
+	}
+}
+
+	@media screen and (max-width: 768px) {
+		.slideshow-container {
+			background-position: center;
+		}
+
+		.container {
+			display: flex;
+			flex-basis: 100% !important;
+			text-align: center;
+		}
+
+		.column1 {
+			flex: 2;
+			flex-basis: 100% !important;
+		}
+
+		h1 {
+			font-size: 50px !important;
+		}
+
+		h3 {
+			font-size: 15pt !important;
+			margin-top: 5px !important;
+			padding: 0px 0px 40px 0px;
+		}
+
+		p {
+			color: #fff;
+			font-family: Theano Didot Regular;
+			font-size: 15pt !important;
+			margin: 0px !important;
+			padding: 0px !important;
+			line-height: 30px;
+		}
+
+		button {
+			text-transform: uppercase;
+			font-size: 14pt !important;
+			padding: 15px 20px;
+			margin-top: 40px;
+		}
+	}
