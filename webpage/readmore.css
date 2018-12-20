@@ -28,7 +28,6 @@ a {
 .container1 {
     display: block;
     margin: auto;
-    text-align: center;
     width: 100% !important;
     padding: 0%;
     margin: 0%;
@@ -36,7 +35,6 @@ a {
 }
 
 .container2 {
-    text-align: center;
     display: flex;
     width: 71% !important;
     margin: auto !important;
@@ -45,7 +43,7 @@ a {
 }
 
 .container {
-    text-align: center;
+    text-align: justify;
     display: flex;
     width: 100% !important;
     margin: auto !important;
