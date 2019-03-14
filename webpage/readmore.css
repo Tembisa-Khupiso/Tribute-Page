@@ -85,7 +85,7 @@ p {
 }
 
 q {
-    font-size: 20pt;
+    /* font-size: 20pt; */
 }
 
 button {
@@ -111,12 +111,11 @@ button {
 }
 
 .para2 {
-    color: #656464;
+    color: #5f5b5b;
     padding: 40px 40px;
-    font-family: Roboto;
-    font-weight: 100px !important;
-    font-size: 16px;
-    width: 90%;
+    font-family: 'Roboto';
+    font-weight: 300 !important;
+    letter-spacing: 2px;
 }
 /*
 figure {
